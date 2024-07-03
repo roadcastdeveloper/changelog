@@ -15,16 +15,36 @@ async function loadChangelog(url) {
             const versionAndDateContainer = document.createElement('div');
             versionAndDateContainer.classList.add('version-date-container');
 
+            const versionTagContainer = document.createElement('div');
+            versionTagContainer.classList.add('version-tag-container');
+
+
+
             const version = document.createElement('div');
-            version.classList.add('version', item.stage.toLowerCase().replace(' ', '-'));
-            version.textContent = `Version ${item.version} - ${item.stage}`;
+            version.classList.add('version');
+            version.textContent = `v${item.version}`;
+
+            const tag = document.createElement('div');
+            tag.classList.add('tag');
+            tag.classList.add('stage',item.stage.toLowerCase().replace(' ', '-'));
+            tag.textContent = `${item.stage}`;
+
+            versionTagContainer.appendChild(version);
+            versionTagContainer.appendChild(tag);
+
 
             const uploadedOn = document.createElement('div');
             uploadedOn.classList.add('uploaded-on');
-            uploadedOn.textContent = `Uploaded on ${item.uploaded_on}`;
+            uploadedOn.textContent = `${item.uploaded_on}`;
 
+            versionAndDateContainer.appendChild(versionTagContainer);
+            versionAndDateContainer.appendChild(uploadedOn);
+/*
             versionAndDateContainer.appendChild(version);
             versionAndDateContainer.appendChild(uploadedOn);
+            versionAndDateContainer.appendChild(tag);*/
+
+
 
             const details = document.createElement('div');
             details.classList.add('details');
@@ -36,7 +56,6 @@ async function loadChangelog(url) {
 
             changelogItem.appendChild(versionAndDateContainer);
             changelogItem.appendChild(details);
-
             changelogContainer.appendChild(changelogItem);
 
 

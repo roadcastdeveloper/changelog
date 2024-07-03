@@ -48,7 +48,7 @@ h1 {
 
 
 .version {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -73,16 +73,41 @@ h1 {
 }
 
 .beta {
-    color: #985e1a;
+    color: #ffffff;
+    background-color: #985e1a;
 }
 
 .production {
-    color: #125d30;
+    color: #ffffff;
+    background-color: #125d30;
+}
+
+.internal {
+    color: #ffffff;
+    background-color: #6c757d;
 }
 
 .version-date-container {
     display: flex;
     justify-content: space-between;
+}
+
+.version-tag-container {
+    display: flex;
+    align-content: center;
+}
+
+.tag {
+    display: inline-block;
+    padding: 0 4px;
+    margin-right: 5px;
+    border-radius: 4px;
+    margin-left: 8px;
+    font-size: 10px;
+    align-content: space-evenly;
+
+}
+.tag.stage {
 }
 
 /* Keyframes for Animations */
