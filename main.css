@@ -1,0 +1,141 @@
+body {
+    font-family: 'Google Sans', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f6f6f6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 0 1px rgba(0, 0, 0.1, 0.1);
+    background-color: hsla(0, 100%, 50%, 0.01);
+    background-image: radial-gradient(at 40% 20%, hsla(28, 100%, 74%, 0.2) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, hsla(189, 100%, 56%, 0.2) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(355, 100%, 93%, 0.2) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, hsla(340, 100%, 76%, 0.2) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(22, 100%, 77%, 0.2) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(242, 100%, 70%, 0.2) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(343, 100%, 76%, 0.2) 0px, transparent 50%);
+    animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+    text-align: center;
+    color: #0e0e0e;
+    padding-bottom: 20px;
+    animation: slideInFromTop 1s ease-in-out;
+}
+
+.changelog {
+    margin-top: 10px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.changelog-item {
+    margin-bottom: 20px;
+    border-left: 5px solid #0d483f;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px) saturate(120%) contrast(100%);
+    padding: 20px;
+    box-shadow: rgba(1, 25, 25, 0.7) 0 0 2px;
+    animation: popIn 0.9s ease-in-out;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.version {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.app-name {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #007bff;
+    animation: colorChange 3s infinite;
+}
+
+.uploaded-on {
+    font-size: 14px;
+    color: #666;
+    text-align: end;
+}
+
+.details {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666666;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.beta {
+    color: #985e1a;
+}
+
+.production {
+    color: #125d30;
+}
+
+.version-date-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Keyframes for Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes popIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes colorChange {
+    0% {
+        color: #007bff;
+    }
+    50% {
+        color: #ff007b;
+    }
+    100% {
+        color: #007bff;
+    }
+}

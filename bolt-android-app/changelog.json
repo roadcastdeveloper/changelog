@@ -1,0 +1,44 @@
+[
+  {
+    "version": "8.3.0",
+    "stage": "Beta",
+    "uploaded_on": "July 3, 2024",
+    "details": [
+      "Added Mettax camera live streaming",
+      "Fixed temperature value issue",
+      "Updated google play core library",
+      "Minor bug fixes"
+    ]
+  },
+  {
+    "version": "8.1.0",
+    "stage": "Production",
+    "uploaded_on": "June 20, 2024",
+    "details": [
+      "Updated streaming url",
+      "Minor bug fixes"
+    ]
+  },
+  {
+    "version": "7.104.0",
+    "stage": "Production",
+    "uploaded_on": "May 29, 2024",
+    "details": [
+      "Added mobile app config",
+      "Date picker issue fixed",
+      "Fixed marker crash",
+      "Fixed background service issue",
+      "Minor bug fixes"
+    ]
+  },
+  {
+    "version": "7.99.0",
+    "stage": "Production",
+    "uploaded_on": "February 8, 2024",
+    "details": [
+      "Added delete option in recorded videos",
+      "Added alarm in spymode",
+      "Minor visual changes"
+    ]
+  }
+]

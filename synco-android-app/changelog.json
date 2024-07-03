@@ -1,0 +1,49 @@
+[
+  {
+    "version": "5.2.9",
+    "stage": "Production",
+    "uploaded_on": "June 21, 2024",
+    "details": [
+      "T-sensor temperature fix",
+      "Added opening, closing time in multi-order"
+    ]
+  },
+  {
+    "version": "5.2.3",
+    "stage": "Beta",
+    "uploaded_on": "May 24, 2024",
+    "details": [
+      "Fixed login issue"
+    ]
+  },
+  {
+    "version": "5.18.0",
+    "stage": "Internal Testing",
+    "uploaded_on": "February 27, 2024",
+    "details": [
+      "Added Re-scheduling in single order",
+      "Improvements on reschedule screen, Now when you can tap anywhere on screen to hide keyboard if it is open",
+      "Fixed issues"
+    ]
+  },
+  {
+    "version": "5.17.0",
+    "stage": "Beta",
+    "uploaded_on": "February 21, 2024",
+    "details": [
+      "Added Re-scheduling in multi-order",
+      "Added new logic of live tracking",
+      "Fixed issues"
+    ]
+  },
+  {
+    "version": "5.16.0",
+    "stage": "Production",
+    "uploaded_on": "February 21, 2024",
+    "details": [
+      "Added Leaves and Attendance Summary",
+      "Revamped UI for leaves and attendance modules, making them more user-friendly.",
+      "Fixed issues"
+    ]
+  }
+]
