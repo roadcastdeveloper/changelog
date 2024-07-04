@@ -1,6 +1,17 @@
 [
   {
     "version": "8.3.0",
+    "stage": "Production",
+    "uploaded_on": "July 4, 2024",
+    "details": [
+      "Added Mettax camera live streaming",
+      "Fixed temperature value issue",
+      "Updated google play core library",
+      "Minor bug fixes"
+    ]
+  },
+  {
+    "version": "8.3.0",
     "stage": "Beta",
     "uploaded_on": "July 3, 2024",
     "details": [
