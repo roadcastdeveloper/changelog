@@ -1,5 +1,14 @@
 [
   {
+    "version": "5.3.0",
+    "stage": "Beta",
+    "uploaded_on": "August 1, 2024",
+    "details": [
+      "Added proof of delivery config in multiorder",
+      "Updated compile SDK version to 34"
+    ]
+  },
+  {
     "version": "5.2.9",
     "stage": "Production",
     "uploaded_on": "June 21, 2024",
