@@ -1,4 +1,13 @@
-[
+[{
+    "version": "5.3.3",
+    "stage": "Production",
+    "uploaded_on": "September 3, 2024",
+    "details": [
+      "Removed all jCenter libraries",
+      "Fixed crash on permissions screen",
+      "Fixed map page location issue"
+    ]
+  },
   {
     "version": "5.3.0",
     "stage": "Beta",
